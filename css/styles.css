@@ -383,6 +383,7 @@ font-weight: 500;
 .rows-card {
    padding: 32px 16px;
     border: 1px solid var(--cornflower); 
+    border-top: none;
 }
 .rows-uppertitle {
     font-weight: 500;
@@ -391,6 +392,7 @@ font-weight: 500;
         color: var(--navy-blue);
         letter-spacing: 0.02em;
         margin-bottom: 8px;
+        
 }
 
 .rows-text {
