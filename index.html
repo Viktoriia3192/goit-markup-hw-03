@@ -11,12 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
     <header class="header">
-      <nav class="header-nav">
+      <div class="header-container container">
+        <nav class="header-nav">
         <a class="link logo" href="./index.html"
           >Web<span class="logo-dark">Studio</span>
         </a>
@@ -46,16 +51,19 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <main>
       <!-- Hero section -->
       <section class="hero">
-        <h1 class="hero-uppertitle">Effective Solutions for Your Business</h1>
+        <div class="container">
+          <h1 class="hero-uppertitle">Effective Solutions for Your Business</h1>
         <button class="hero-button" type="button">Order Service</button>
       </section>
       <!-- Feature section -->
       <section class="feature">
-        <h2 hidden class="feature-uppertitle">Feature section</h2>
+        <div class="container">
+          <h2 hidden class="feature-uppertitle">Feature section</h2>
         <ul class="feature-list list">
           <li class="feature-item">
             <h3 class="feature-undertitle">Strategy</h3>
@@ -86,10 +94,12 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <!-- What we are doing section -->
       <section class="doing">
-        <h2 class="doing-undertitle">What are we doing</h2>
+        <div class="container">
+          <h2 class="doing-undertitle">What are we doing</h2>
         <ul class="doing-list list">
           <li class="doing-item">
             <img
@@ -119,9 +129,12 @@
             />
           </li>
         </ul>
+      </div>
+       
       </section>
       <!-- Our team section-->
       <section class="team">
+        <div class="container">
         <h2 class="team-undertitle">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
@@ -169,17 +182,22 @@
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
+      </div>
+        
       </section>
     </main>
     <!-- Footer section -->
     <footer class="footer">
-      <a class="link logo" href="./index.html"
-        >Web<span class="logo-light">Studio</span></a
-      >
+      <div class="container">
+        <a class="link logo" href="./index.html"
+        >Web<span class="logo-light">Studio</span>
+        </a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+    </div>
+      
     </footer>
   </body>
 </html>
