@@ -31,7 +31,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 /* reset start */
+
 h1,
 h2,
 h3,
@@ -46,7 +48,9 @@ p {
     padding: 0;
     margin: 0;
 }
+
 /* reset end */
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -73,6 +77,7 @@ p {
 }
 
 /* header */
+
 .header {
     height: 72px;
     border-bottom: 1px solid var(--cornflower)
@@ -115,6 +120,7 @@ p {
 }
 
 /* adress */
+
 .adress {
     font-style: inherit;
     align-items: center;
@@ -138,6 +144,7 @@ p {
 .adress-link:focus {
     color: var(--ocean);
 }
+
 /* hero */
 
 .hero {
@@ -212,6 +219,7 @@ p {
 }
 
 .feature-text {}
+
 /* what we are doing */
 
 .doing {
